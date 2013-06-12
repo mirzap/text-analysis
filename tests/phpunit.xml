@@ -1,7 +1,9 @@
 <phpunit bootstrap="./bootstrap.php" colors="true">
 
-        <testsuite name="Text" >
+        <testsuite name="Project" >
                 <directory>./Text</directory>
+                <directory>./Data</directory>
+
         </testsuite>
 
         <filter>
